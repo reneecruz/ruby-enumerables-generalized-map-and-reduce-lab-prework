@@ -16,6 +16,7 @@ def reduce(source_array, starting_point = 0)
     counter = 0
   else 
     sum = source_array[0]
+    counter = 1
   
   
   while counter < source_array.length do 
