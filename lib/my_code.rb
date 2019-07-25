@@ -12,8 +12,9 @@ end
 
 def reduce(source_array, starting_point = 0)
   if starting_point
-  sum = starting_point
-  counter = 0
+    sum = starting_point
+    counter = 0
+  else
   
   
   while counter < source_array.length do 
